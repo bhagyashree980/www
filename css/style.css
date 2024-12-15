@@ -1,0 +1,51 @@
+.d-flex {
+    display: flex;
+    align-items: center; /* Vertically centers the text and PayPal button */
+    justify-content: space-between; /* Creates space between the text and the button */
+    position: fixed; /* Ensures the banner stays at the top */
+    top: 0; /* Aligns the banner to the top of the page */
+    left: 0;
+    width: 100%; /* Makes the banner span the entire width */
+    background: #fff; /* Gives the banner a white background */
+    padding: 10px; /* Adds padding around the content */
+    z-index: 1000; /* Ensures the banner appears above all other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for better visibility */
+}
+
+.d-flex p {
+    margin: 0; /* Removes extra margin from the paragraph */
+    font-size: 14px; /* Adjust font size for readability */
+    color: #333; /* Neutral text color */
+    flex: 1; /* Allows the text to take available space */
+}
+
+#donate-button-container {
+    margin-left: 20px; /* Adds space between the text and the button */
+}
+
+/* Adjust Header and Body Spacing */
+header {
+    margin-top: 60px; /* Pushes header below the banner */
+}
+
+body {
+    padding-top: 60px; /* Ensures proper spacing for all page content */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column; /* Stacks text and button vertically */
+        align-items: flex-start; /* Aligns items to the left */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    #donate-button-container {
+        margin-left: 0; /* Removes extra margin */
+        margin-top: 10px; /* Adds space above the button */
+    }
+
+    .d-flex p {
+        font-size: 12px; /* Reduces font size for better fit */
+    }
+}

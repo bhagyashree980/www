@@ -112,7 +112,7 @@ header {
   padding: 20px 0;
 }
 header .navbar {
-  margin-bottom: 0px;
+  margin-bottom: 100px;
   border: 0px;
 }
 header .navbar-brand {
@@ -125,13 +125,13 @@ header .navbar-default {
 #firstHeader.small .navbar-default {
      -moz-box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
      -webkit-box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
-     box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);   
+     box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);   
 }
 header .navbar-default .navbar-nav {
   padding-top: 0px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
+  color: #4b4646;
   padding: 10px 26px;
   font-size: 15px;
 }
@@ -998,7 +998,7 @@ footer .footer-manu ul li a:hover {
       flex-direction: column;
     }
     .widget h4 {
-    }
+    
     .widget h4:after {
         color:white;
         width:20px;
@@ -2785,6 +2785,5 @@ table, th, td {
   align-items: center;
 }
 
-.count{
-/* Nothing related to styling needed to be described for this  */
-}
+.count
+/* Nothing related to styling needed to be described
